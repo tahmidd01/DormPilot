@@ -1,0 +1,18 @@
+PDF Generation Setup Note
+==========================
+
+The PDF generation feature in admin_pdf_reports.php requires the TCPDF library.
+
+To enable PDF generation:
+
+1. Download TCPDF from: https://github.com/tecnickcom/TCPDF
+2. Extract it to your project folder
+3. The folder should be named "tcpdf" in the root directory
+
+Alternatively, you can use a simpler approach by modifying admin_pdf_reports.php to use 
+basic HTML output or another PDF library like FPDF.
+
+For now, the PDF links will show an error if TCPDF is not installed.
+You can comment out the PDF generation code and replace it with a simple HTML report
+or install TCPDF as described above.
+
